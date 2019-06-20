@@ -1,0 +1,38 @@
+##General Project Requirements
+Basic Technical Requirements:
+All projects must be developed so that they will execute within Docker Linux containers.  You may use whatever language(s) you prefer within the constraints of the project itself (from the external mentor). We recommend using mainstream languages such as Java, JavaScript and C#/.NET, as there are FHIR libraries readily available (others may be available as well).  Keep in mind that your project must make use of a FHIR server, unless otherwise approved by instructors/TAs.
+Documentation must be created using AsciiDoc or some markup/down language. You will be required to convert that code to a PDF. Both the language to create the PDF and the PDF must be submitted with your project. 
+All project code and deliverables must reside in the GaTech GitHub server and ready-to-run Docker containers must be delivered. Your TA will load your container(s) on a server in GaTech so that projects will be readily accessible for demonstration and grading.
+You and your team are required to transfer all source code or solutions to external mentor. All questions around this should be discussed with your mentors when the time comes. 
+The requirements of this deliverable are subject to change (mostly during Week 13), at any time, up until Week 15.
+Your final deliverable is comprised of two pieces: 1) the final video presentation (Deliverable 4) and the final project itself. This page lays out the requirements for the Final Project (Deliverable 5).
+For this deliverable, you will be submitting your completed project and all of its components. Teams must also make the final application available such that it can be utilized by graders via your Team’s assigned GitHub account. It is the team’s responsibility to work with the TA Mentor in ensuring your solution is available. If you are working with an External Mentor, you will also have to consult with them to ensure you have everything prepared to send to them.
+The contents of the repo will vary based on the nature of your project. You are to submit ALL code and any design documents, documentation, or anything else proposed in your project proposal. You should also submit any data itself that was gathered, as well as the results of any analysis and any research design documentation you assembled to prepare for the work.
+ 
+Project Submission: You will submit all components of your project to both GitHub and Canvas. You will add your entire project to GitHub and then submit your commit ID in a PDF to Canvas.
+•	You must have a catalog.pdf file that yields “Table of Contents” type details on the contents of your project. It shall be called “catalog.pdf.” This file is to be placed in “Final Delivery” directory. Each element of your project, including its location, must be spelled out clearly in this document. Additionally, your Team Name, Team Members, Project Name and GitHub link should be included in this file.
+•	Provide instructions [“navigate to this URL… type in this… click on that…etc.”] for us (Instructors/OMs) to follow in order to run your application, please identify these details in a file called “Special Instructions – <Team Name>.pdf” This file is to be placed in “Final Delivery” directory. This file is not optional. We expect to launch your application via a docker-compose.yml file to be found at the root of the repository. If your software development process/tool caused the docker-compose file to be in a different folder and/or you have special build/launch instructions, also include these details in the “Special Instructions” PDF.
+•	Your final Gantt Chart should be completely updated and clearly notated. You must include the specific names of each presenter(s) for each of the presentations. We will use this to cross check our records for your presenters, for each team member is required to present at least once this semester. It shall be called “Final Gantt Chart – <Team Name>.pdf.” This file is to be placed in “Final Delivery” directory.
+•	Every application MUST include an “as detailed as necessary” manual. All of the documentation that you submit with your final project should be treated as an official document – this includes the manual. Therefore, any manual that is not carefully structured or clearly written will result in significant point loss. Additionally, your Team Name, Team Members, Project Name and GitHub link should be included in this file. It shall be called “Manual – <Team Name>.pdf.”
+•	Please provide all documentation (and links, etc.) related to your research in a directory called “Research.” This folder should be located within the “Final Deliverable” directory. Please make the file names clear and intuitive. (ex. 21391ujafesoaeiu9032-few.pdf file would be renamed to something like “Defining Statistical Significance.pdf”)
+•	Any other files, of your choosing, can be add within your “Final Delivery” directory.
+•	You can get your commit ID by running “git log -1” and copying the hexadecimal ID it produces. Paste this commit ID in a document and submit it as a PDF called “Final Project – <Team Name>.pdf” in Canvas. If you are unsure what to do, please post to Piazza. We encourage you to test this out well in advance, for there are unlimited number of submission (up until the due date) for this assignment.
+Your private GT GitHub repository should contain all of your source code and everything necessary to build and execute your project. In addition to whatever you already have in the repository, we require the deliverables as defined above and with the following structure:
+Final Delivery – (Directory)
+|– catalog.pdf
+|– docker-compose.yml
+|– Final Gantt Chart – <Team Name>.pdf
+|– Manual – <Team Name>.pdf
+|– Special Instructions – <Team Name>.pdf
+|– Research – (Directory)
+OR
+docker-compose.yml
+Final Delivery – (Directory)
+|– catalog.pdf
+|– Final Gantt Chart – <Team Name>.pdf
+|– Manual – <Team Name>.pdf
+|– Special Instructions – <Team Name>.pdf
+|– Research – (Directory)
+Note: Your Documentation, which includes the following: Catalog, Manual and Special Instructions, must be created using AsciiDoc or some markup or markdown language. You will be required to convert that code to a PDF. All of your AsciiDoc, Markup/Markdown code must be submitted with final github commit. You can put these files anywhere within the “Final Delivery” Directory. All other documents such as your Gantt chart or research documents do not need to be in any formatting language prior to being added as a PDF. We do require you convert all files to PDF form (with the exception of the docker yml file).
+User manual = click here, log in there, see this happen.  Special Instructions = run this script to do x, use docker to test locally like this, etc.  Some teams did not use the HDAP pipeline for specific reasons, and those teams will have more special instructions.  If you used the HDAP pipeline, your special instructions will likely not be terribly long.
+
