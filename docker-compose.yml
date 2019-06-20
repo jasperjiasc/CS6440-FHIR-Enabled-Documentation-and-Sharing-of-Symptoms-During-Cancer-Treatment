@@ -1,0 +1,9 @@
+version: '3'
+services:
+  #Change to name webapp
+  python-docker-web-app:
+    build: .
+    #change ports accordingly
+    ports:
+      - "5000:5000"
+  #Add addtional services as needed, for example add one for a Postgres or MySql database
